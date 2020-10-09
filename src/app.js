@@ -72,5 +72,5 @@ app.get("*", function (req, res) {
     });
 });
 app.listen(3000, function () {
-    console.log("Server is up on port 3000.");
+    console.log("Server is up on port " + port + ".");
 });
