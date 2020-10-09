@@ -4,6 +4,7 @@ var hbs = require("hbs");
 var geocode = require("./utils/geocode");
 var forecast = require("./utils/forecast");
 var app = express();
+var port = process.env.PORT || 3000;
 // Define paths for Express config
 var publicDirectoryPath = path.join(__dirname, "../public");
 var viewsPath = path.join(__dirname, "../templates/views");
